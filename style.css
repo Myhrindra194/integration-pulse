@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.content {
+  background-color: #eafaf1;
+}
+
+.banner-heading-title {
+  font-size: 4rem;
+}
+.card-list {
+  list-style: none;
+}
+.card-list li:before {
+  content: "✓ ";
+  color: green;
+  font-size: 1.5rem;
+}
+.card-list-items {
+  margin-top: 1rem;
+}
+.test {
+  width: 50vw;
+}
+footer {
+  background-color: #080c16;
+}
+.footer-list-item {
+  list-style: none;
+}
+.footer-last {
+  width: 30vw;
+}
