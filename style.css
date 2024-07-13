@@ -6,11 +6,11 @@
 .content {
   background-color: #eafaf1;
 }
-
 .banner-heading-title {
   font-size: 4rem;
 }
-.card-list {
+.card-list,
+.footer-list-item {
   list-style: none;
 }
 .card-list li:before {
@@ -21,15 +21,6 @@
 .card-list-items {
   margin-top: 1rem;
 }
-.test {
-  width: 50vw;
-}
 footer {
   background-color: #080c16;
-}
-.footer-list-item {
-  list-style: none;
-}
-.footer-last {
-  width: 30vw;
 }
