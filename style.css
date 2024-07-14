@@ -9,18 +9,15 @@
 .banner-heading-title {
   font-size: 4rem;
 }
-.card-list,
-.footer-list-item {
-  list-style: none;
-}
-.card-list li:before {
+.card-list ::marker {
   content: "✓ ";
   color: green;
-  font-size: 1.5rem;
-}
-.card-list-items {
-  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 footer {
   background-color: #080c16;
+}
+.footer-list-item {
+  list-style: none;
 }
